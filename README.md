@@ -130,7 +130,7 @@ One of the main advantages of the surrogate model is the possibility to rapidly 
 
 ## Effect of Enthesis Length
 
-![Length Effect](figures/publication/fig_length_effect_publication.png)
+![Length Effect](figures/publication/fig_law_comparison_vs_length.png)
 
 The results suggest that increasing enthesis length generally reduces peak stress for graded configurations, while linear transitions remain less effective.
 
