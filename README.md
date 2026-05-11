@@ -163,7 +163,7 @@ SHAP analysis was used to understand which parameters most strongly influence th
 
 ## Feature Importance
 
-![SHAP Importance](figures/final/shap_barplot.png)
+![SHAP Importance](results/shap/shap_bar_plot.png)
 
 The most influential parameters were:
 
@@ -177,7 +177,7 @@ while the number of layers showed a smaller but still measurable contribution.
 
 ## SHAP Summary Plot
 
-![SHAP Summary](figures/final/shap_summary.png)
+![SHAP Summary](results/shap/shap_summary_plot.png)
 
 The analysis confirmed that:
 
