@@ -10,8 +10,6 @@
 
 # Overview
 
-![Main Figure](figures/publication/fig_law_comparison_vs_length.png)
-
 This project extends the previous **Enthesis FEM Model** study, where different functionally graded material (FGM) transition laws were investigated through finite element simulations of the tendon-to-bone interface (enthesis).
 
 The original FEM analysis showed that graded interfaces can significantly reduce stress concentrations compared to abrupt material transitions. However, exploring large design spaces exclusively through FEM rapidly becomes computationally expensive.
@@ -232,4 +230,3 @@ Future developments may include:
 
 **Federico Tremolada**  
 Biomedical Engineer — Politecnico di Milano  
-Biomechanics • FEM • Biomaterials • Machine Learning • Medical Device R&D
