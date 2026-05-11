@@ -65,41 +65,6 @@ Design maps and optimization trends
 
 ---
 
-# Repository Structure
-
-```text
-dataset/
-│
-├── raw/
-├── processed/
-└── design_matrix/
-
-figures/
-│
-├── publication/
-├── final/
-└── maps_abaqus_models/
-
-results/
-│
-├── metrics/
-├── validation/
-└── shap/
-
-scripts/
-│
-├── dataset/
-├── machine_learning/
-├── visualization/
-└── shap/
-
-docs/
-│
-└── project_notes/
-```
-
----
-
 # Methodology
 
 ## 1. Parametric FEM Dataset
