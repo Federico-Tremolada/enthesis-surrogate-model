@@ -1,0 +1,15 @@
+model_id,phase,law_type,n_exponent,number_of_layers,poisson_mode,output_SENER_available,notes
+M01,baseline,sharp,,0,constant,check,Sharp interface between tendon and bone
+M02,baseline,linear,,8,constant,check,Linear graded enthesis
+M03,baseline,exponential,,8,constant,check,Exponential graded enthesis
+M04,baseline,power_law,0.5,8,constant,check,Power-law graded enthesis n=0.5
+M05,baseline,power_law,2.0,8,constant,check,Power-law graded enthesis n=2
+M10,refinement,power_law,2.0,8,constant,check,Layer refinement study L08
+M11,refinement,power_law,2.0,12,constant,check,Layer refinement study L12
+M12,refinement,power_law,2.0,16,constant,check,Layer refinement study L16
+M13,n_sensitivity,power_law,1.5,16,constant,check,Power-law exponent sensitivity n=1.5
+M14,n_sensitivity,power_law,2.0,16,constant,check,Power-law exponent sensitivity n=2
+M15,n_sensitivity,power_law,3.0,16,constant,check,Power-law exponent sensitivity n=3
+M16,n_sensitivity,power_law,5.0,16,constant,check,Power-law exponent sensitivity n=5
+M17,poisson_study,power_law,3.0,16,constant,yes,Reference optimal model with constant Poisson ratio
+M18,poisson_study,power_law,3.0,16,variable,yes,Variable Poisson ratio across enthesis

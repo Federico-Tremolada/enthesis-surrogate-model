@@ -1,0 +1,23 @@
+model_id,phase,source,law_type,n_exponent,number_of_layers,enthesis_length_mm,poisson_mode,tendon_E_MPa,bone_E_MPa,tendon_nu,bone_nu,max_S11_final,min_S11_final,max_vonMises_final,S11_Interface_MPa,S11_Range_MPa,MaxAbs_dSdx,MeanAbs_dSdx,MaxAbs_d2Sdx2,MeanAbs_d2Sdx2,AreaAbs_S11,Area_vs_Sharp,notes
+M01,baseline,original_project,sharp,0.0,0,6.0,constant,200,20000,0.45,0.3,-3.36902260578649,-4.13327015244775,7.7966742515563965,-3.63412275,0.764247546661262,0.591923147339318,0.0641720288727616,4.71520188519419,0.0992558650313023,111.084298188004,0.0,Sharp interface between tendon and bone
+M02,baseline,original_project,linear,0.0,8,6.0,constant,200,20000,0.45,0.3,-3.75545646958738,-5.08938259451403,8.179767608642578,-3.80171415,1.33392612492665,0.503038130066372,0.106383883236233,1.28582358297439,0.0697332017422853,133.964176828784,23.1611555647035,Linear graded enthesis
+M03,baseline,original_project,exponential,0.0,8,6.0,constant,200,20000,0.45,0.3,-3.51160911367876,-4.63794251563126,6.801059246063232,-3.768556,1.12633340195251,0.273317826229207,0.0908724643900631,0.872945791479338,0.0456463421505926,122.09627926776,11.0119810797559,Exponential graded enthesis
+M04,baseline,original_project,power_law,0.5,8,6.0,constant,200,20000,0.45,0.3,-3.94688860828226,-5.13922790563627,9.28821849822998,-4.10845,1.19233929735401,0.461792389900118,0.0964466772710645,1.42053484501622,0.0687211567622234,136.593838978695,25.5303932366199,Power-law graded enthesis n=0.5
+M05,baseline,original_project,power_law,2.0,8,6.0,constant,200,20000,0.45,0.3,-3.52912359628821,-4.81247666395291,7.332578659057617,-3.5922588,1.2833530676647,0.388581752946374,0.10231332074637,0.961300562569508,0.0563628280174549,126.353163671107,15.4984021102346,Power-law graded enthesis n=2
+M10,refinement,original_project,power_law,2.0,8,6.0,constant,200,20000,0.45,0.3,-3.528329,-7.194959,7.332578659057617,,,,,,,,,Layer refinement study L08
+M11,refinement,original_project,power_law,2.0,12,6.0,constant,200,20000,0.45,0.3,-3.471567,-7.308556,7.311216354370117,,,,,,,,,Layer refinement study L12
+M12,refinement,original_project,power_law,2.0,16,6.0,constant,200,20000,0.45,0.3,-3.478584,-7.199393,7.198911190032959,,,,,,,,,Layer refinement study L16
+M13,n_sensitivity,original_project,power_law,1.5,16,6.0,constant,200,20000,0.45,0.3,-3.489748,-8.127826,8.152043342590332,,,,,,,,,Power-law exponent sensitivity n=1.5
+M14,n_sensitivity,original_project,power_law,2.0,16,6.0,constant,200,20000,0.45,0.3,-3.478584,-7.199393,7.198911190032959,,,,,,,,,Power-law exponent sensitivity n=2
+M15,n_sensitivity,original_project,power_law,3.0,16,6.0,constant,200,20000,0.45,0.3,-3.288926,-6.80648,6.813203811645508,,,,,,,,,Power-law exponent sensitivity n=3
+M16,n_sensitivity,original_project,power_law,5.0,16,6.0,constant,200,20000,0.45,0.3,-2.928087,-6.80395,6.816735744476318,,,,,,,,,Power-law exponent sensitivity n=5
+M17,poisson_study,original_project,power_law,3.0,16,6.0,constant,200,20000,0.45,0.3,-3.288926,-6.80648,6.813203811645508,,,,,,,,,Reference optimal model with constant Poisson ratio
+M18,poisson_study,original_project,power_law,3.0,16,6.0,variable,200,20000,0.45,0.3,-3.095994,-7.316448,7.322357654571533,,,,,,,,,Variable Poisson ratio across enthesis
+M19,length_study,length_study,linear,0.0,16,4.0,constant,200,20000,0.45,0.3,-3.2704327,-8.027342,8.095412254333496,,,,,,,,,"New simulation: linear graded enthesis, Le=4 mm"
+M20,length_study,length_study,exponential,0.0,16,4.0,constant,200,20000,0.45,0.3,-2.988047,-7.6370063,7.646137714385986,,,,,,,,,"New simulation: exponential graded enthesis, Le=4 mm"
+M21,length_study,length_study,power_law,2.0,16,4.0,constant,200,20000,0.45,0.3,-3.0669131,-7.6820846,7.691746234893799,,,,,,,,,"New simulation: power-law n=2, Le=4 mm"
+M22,length_study,length_study,power_law,3.0,16,4.0,constant,200,20000,0.45,0.3,-2.9601598,-7.5507307,7.560500144958496,,,,,,,,,"New simulation: power-law n=3, Le=4 mm"
+M23,length_study,length_study,linear,0.0,16,8.0,constant,200,20000,0.45,0.3,-3.9438543,-8.2577095,8.462495803833008,,,,,,,,,"New simulation: linear graded enthesis, Le=8 mm"
+M24,length_study,length_study,exponential,0.0,16,8.0,constant,200,20000,0.45,0.3,-3.8515093,-6.102133,6.182094097137451,,,,,,,,,"New simulation: exponential graded enthesis, Le=8 mm"
+M25,length_study,length_study,power_law,2.0,16,8.0,constant,200,20000,0.45,0.3,-3.904062,-7.041058,7.149514675140381,,,,,,,,,"New simulation: power-law n=2, Le=8 mm"
+M26,length_study,length_study,power_law,3.0,16,8.0,constant,200,20000,0.45,0.3,-3.680271,-6.3798347,6.467466831207275,,,,,,,,,"New simulation: power-law n=3, Le=8 mm"

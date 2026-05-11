@@ -1,0 +1,3 @@
+model_name,max_mises,max_mises_x,max_mises_y,max_s11,max_s11_x,max_s11_y,min_s11,min_s11_x,min_s11_y,line_csv_path
+M17_PWR_n3_L16_nuConst_v1,6.813204,15.937500,5.850000,-3.288926,16.687500,3.150000,-6.806480,15.937500,5.850000,C:\Users\fedet\OneDrive\Desktop\P01_TendonBone_Interface\II_Power_Law_Development\01_Abaqus_sims\03_FaseC_Poisson\results_summary\line_profiles_phaseC\M17_PWR_n3_L16_nuConst_v1_line.csv
+M18_PWR_n3_L16_nuVar_v1,7.322358,15.937500,0.150000,-3.095994,16.687500,3.150000,-7.316448,15.937500,0.150000,C:\Users\fedet\OneDrive\Desktop\P01_TendonBone_Interface\II_Power_Law_Development\01_Abaqus_sims\03_FaseC_Poisson\results_summary\line_profiles_phaseC\M18_PWR_n3_L16_nuVar_v1_line.csv

@@ -1,0 +1,4 @@
+model_name,odb_path,step_name,frame_id,max_mises,max_s11,min_s11
+M10_PWR_n2_L08_v1,C:\Users\fedet\OneDrive\Desktop\P01_TendonBone_Interface\II_Power_Law_Development\01_Abaqus_sims\01_FaseA_Refinement\M10_PWR_n2_L08_v1\M10_PWR_n2_L08_v1.odb,Loading,11,7.332579,-3.528329,-7.194959
+M11_PWR_n2_L12_v1,C:\Users\fedet\OneDrive\Desktop\P01_TendonBone_Interface\II_Power_Law_Development\01_Abaqus_sims\01_FaseA_Refinement\M11_PWR_n2_L12_v1\M11_PWR_n2_L12_v1.odb,Loading,11,7.311216,-3.471567,-7.308556
+M12_PWR_n2_L16_v1,C:\Users\fedet\OneDrive\Desktop\P01_TendonBone_Interface\II_Power_Law_Development\01_Abaqus_sims\01_FaseA_Refinement\M12_PWR_n2_L16_v1\M12_PWR_n2_L16_v1.odb,Loading,11,7.198911,-3.478584,-7.199393

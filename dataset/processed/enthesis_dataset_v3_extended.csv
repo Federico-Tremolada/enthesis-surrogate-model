@@ -1,0 +1,23 @@
+Abs_Min_S11_MPa,bone_E_MPa,bone_nu,enthesis_length_mm,law_type,max_S11,max_vonMises,min_S11,model_id,n_exponent,notes,number_of_layers,odb_file,output_SENER_available,phase,poisson_mode,tendon_E_MPa,tendon_nu
+,,,,sharp,,,,M01,,Sharp interface between tendon and bone,0,,check,baseline,constant,,
+,,,,linear,,,,M02,,Linear graded enthesis,8,,check,baseline,constant,,
+,,,,exponential,,,,M03,,Exponential graded enthesis,8,,check,baseline,constant,,
+,,,,power_law,,,,M04,0.5,Power-law graded enthesis n=0.5,8,,check,baseline,constant,,
+,,,,power_law,,,,M05,2.0,Power-law graded enthesis n=2,8,,check,baseline,constant,,
+,,,,power_law,,,,M10,2.0,Layer refinement study L08,8,,check,refinement,constant,,
+,,,,power_law,,,,M11,2.0,Layer refinement study L12,12,,check,refinement,constant,,
+,,,,power_law,,,,M12,2.0,Layer refinement study L16,16,,check,refinement,constant,,
+,,,,power_law,,,,M13,1.5,Power-law exponent sensitivity n=1.5,16,,check,n_sensitivity,constant,,
+,,,,power_law,,,,M14,2.0,Power-law exponent sensitivity n=2,16,,check,n_sensitivity,constant,,
+,,,,power_law,,,,M15,3.0,Power-law exponent sensitivity n=3,16,,check,n_sensitivity,constant,,
+,,,,power_law,,,,M16,5.0,Power-law exponent sensitivity n=5,16,,check,n_sensitivity,constant,,
+,,,,power_law,,,,M17,3.0,Reference optimal model with constant Poisson ratio,16,,yes,poisson_study,constant,,
+,,,,power_law,,,,M18,3.0,Variable Poisson ratio across enthesis,16,,yes,poisson_study,variable,,
+8.027342,20000.0,0.3,4.0,linear,-3.2704327,8.095412254333496,-8.027342,M19,,,16,M19_linear_L4.odb,,length_study,constant,200.0,0.45
+7.6370063,20000.0,0.3,4.0,exponential,-2.988047,7.646137714385986,-7.6370063,M20,,,16,M20_exp_L4.odb,,length_study,constant,200.0,0.45
+7.6820846,20000.0,0.3,4.0,power_law,-3.0669131,7.691746234893799,-7.6820846,M21,2.0,,16,M21_power_n2_L4.odb,,length_study,constant,200.0,0.45
+7.5507307,20000.0,0.3,4.0,power_law,-2.9601598,7.560500144958496,-7.5507307,M22,3.0,,16,M22_power_n3_L4.odb,,length_study,constant,200.0,0.45
+8.2577095,20000.0,0.3,8.0,linear,-3.9438543,8.462495803833008,-8.2577095,M23,,,16,M23_linear_L8.odb,,length_study,constant,200.0,0.45
+6.102133,20000.0,0.3,8.0,exponential,-3.8515093,6.182094097137451,-6.102133,M24,,,16,M24_exp_L8.odb,,length_study,constant,200.0,0.45
+7.041058,20000.0,0.3,8.0,power_law,-3.904062,7.149514675140381,-7.041058,M25,2.0,,16,M25_power_n2_L8.odb,,length_study,constant,200.0,0.45
+6.3798347,20000.0,0.3,8.0,power_law,-3.680271,6.467466831207275,-6.3798347,M26,3.0,,16,M26_power_n3_L8.odb,,length_study,constant,200.0,0.45
