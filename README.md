@@ -140,11 +140,11 @@ The results suggest that increasing enthesis length generally reduces peak stres
 
 ## Exponent vs Layer Discretization
 
-![Design Map Layers](figures/publication/fig_design_map_layers_publication.png)
+![Design Map Layers](figures/publication/fig_design_map_n_vs_layers.png)
 
 ## Exponent vs Enthesis Length
 
-![Design Map Length](figures/publication/fig_design_map_length_publication.png)
+![Design Map Length](figures/publication/fig_design_map_n_vs_length.png)
 
 The design maps reveal a clear optimal region associated with:
 
