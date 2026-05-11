@@ -1,0 +1,9 @@
+model_id,phase,law_type,n_exponent,number_of_layers,enthesis_length_mm,poisson_mode,tendon_E_MPa,bone_E_MPa,tendon_nu,bone_nu,output_S11_available,output_VM_available,output_SENER_available,notes
+M19,length_study,linear,,16,4,constant,200,20000,0.45,0.3,no,no,no,"New simulation: linear graded enthesis, Le=4 mm"
+M20,length_study,exponential,,16,4,constant,200,20000,0.45,0.3,no,no,no,"New simulation: exponential graded enthesis, Le=4 mm"
+M21,length_study,power_law,2,16,4,constant,200,20000,0.45,0.3,no,no,no,"New simulation: power-law n=2, Le=4 mm"
+M22,length_study,power_law,3,16,4,constant,200,20000,0.45,0.3,no,no,no,"New simulation: power-law n=3, Le=4 mm"
+M23,length_study,linear,,16,8,constant,200,20000,0.45,0.3,no,no,no,"New simulation: linear graded enthesis, Le=8 mm"
+M24,length_study,exponential,,16,8,constant,200,20000,0.45,0.3,no,no,no,"New simulation: exponential graded enthesis, Le=8 mm"
+M25,length_study,power_law,2,16,8,constant,200,20000,0.45,0.3,no,no,no,"New simulation: power-law n=2, Le=8 mm"
+M26,length_study,power_law,3,16,8,constant,200,20000,0.45,0.3,no,no,no,"New simulation: power-law n=3, Le=8 mm"
